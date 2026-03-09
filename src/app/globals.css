@@ -1,0 +1,224 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== Dark Theme Variables (default) ===== */
+:root {
+  --background: #0F0F1A;
+  --background-secondary: #161625;
+  --foreground: #E5E7EB;
+  --foreground-muted: #9CA3AF;
+  --card-bg: #161625;
+  --border-color: #2A2A40;
+}
+
+/* ===== Light Theme Variables ===== */
+.light {
+  --background: #F5F3EF;
+  --background-secondary: #FFFFFF;
+  --foreground: #1F2937;
+  --foreground-muted: #6B7280;
+  --card-bg: #FFFFFF;
+  --border-color: #E5E7EB;
+}
+
+/* ===== Base Styles ===== */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark body {
+  background: linear-gradient(135deg, #0F0F1A 0%, #1A1A2E 50%, #16213E 100%);
+  background-attachment: fixed;
+}
+
+/* ===== Custom Scrollbar ===== */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2A2A40;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3A3A55;
+}
+
+.light ::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+}
+
+.light ::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #2A2A40 var(--background);
+}
+
+.light * {
+  scrollbar-color: #CBD5E1 var(--background);
+}
+
+/* ===== Glass Card Utility Classes ===== */
+@layer components {
+  .glass-card {
+    @apply backdrop-blur-xl bg-white/5 dark:bg-black/20 border border-white/10 rounded-2xl shadow-glass;
+  }
+
+  .glass-card-hover {
+    @apply glass-card hover:bg-white/10 dark:hover:bg-white/10 hover:border-white/20 hover:shadow-glass-lg transition-all duration-300;
+  }
+
+  .glass-card-gold {
+    @apply glass-card hover:border-dofus-gold/30 hover:shadow-glow-gold transition-all duration-300;
+  }
+
+  .glass-navbar {
+    @apply backdrop-blur-xl bg-white/5 dark:bg-black/20 border-b border-white/10;
+  }
+
+  .glass-input {
+    @apply backdrop-blur-xl bg-white/5 dark:bg-white/5 border border-white/10 rounded-lg focus:outline-none focus:ring-2 focus:ring-dofus-gold/50 focus:border-dofus-gold/50 transition-all duration-200;
+  }
+
+  .text-gold-gradient {
+    @apply bg-gradient-to-r from-dofus-gold to-yellow-300 bg-clip-text text-transparent;
+  }
+
+  .btn-gold {
+    @apply px-6 py-2.5 rounded-lg bg-gradient-to-r from-dofus-gold to-dofus-brown text-white font-medium hover:shadow-glow-gold transition-all duration-300;
+  }
+}
+
+/* ===== Light Theme Overrides ===== */
+.light body {
+  background: linear-gradient(135deg, #F5F3EF 0%, #EDE9E0 50%, #E8E4DB 100%) !important;
+  background-attachment: fixed;
+  color: #1F2937;
+}
+
+.light .glass-card,
+.light [class*="backdrop-blur"][class*="bg-white/5"],
+.light [class*="backdrop-blur"][class*="bg-black/20"] {
+  background: rgba(255, 255, 255, 0.7) !important;
+  border-color: rgba(209, 213, 219, 0.5) !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.light .glass-navbar,
+.light nav[class*="backdrop-blur"] {
+  background: rgba(255, 255, 255, 0.8) !important;
+  border-color: rgba(209, 213, 219, 0.5) !important;
+}
+
+.light .glass-input {
+  background: rgba(255, 255, 255, 0.5) !important;
+  border-color: #D1D5DB !important;
+}
+
+/* Light theme text color overrides */
+.light .text-gray-200,
+.light .text-gray-300 {
+  color: #1F2937 !important;
+}
+
+.light .text-gray-400 {
+  color: #4B5563 !important;
+}
+
+.light .text-gray-500 {
+  color: #6B7280 !important;
+}
+
+.light .text-white {
+  color: #111827 !important;
+}
+
+/* Keep gold/colored text unchanged in light mode */
+.light .text-dofus-gold,
+.light [class*="text-gold-gradient"],
+.light .text-red-400,
+.light .text-red-500,
+.light .text-blue-400,
+.light .text-blue-300,
+.light .text-green-400,
+.light .text-emerald-400,
+.light .text-cyan-400,
+.light .text-yellow-400,
+.light .text-yellow-300,
+.light .text-orange-400,
+.light .text-orange-500,
+.light .text-purple-400,
+.light .text-pink-400,
+.light .text-teal-400,
+.light .text-amber-600 {
+  color: revert-layer;
+}
+
+/* Light theme backgrounds for cards */
+.light [class*="bg-white/5"],
+.light [class*="bg-white/\[0\.08\]"] {
+  background-color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.light [class*="bg-white/10"] {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.light [class*="bg-black/"] {
+  background-color: rgba(255, 255, 255, 0.6) !important;
+}
+
+/* Light borders */
+.light [class*="border-white/10"],
+.light [class*="border-white/20"] {
+  border-color: rgba(209, 213, 219, 0.6) !important;
+}
+
+/* Light theme input styles */
+.light input[class*="bg-white/5"],
+.light select {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  border-color: #D1D5DB !important;
+  color: #1F2937 !important;
+}
+
+.light input::placeholder {
+  color: #9CA3AF !important;
+}
+
+/* Light footer */
+.light footer {
+  background: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* ===== Selection ===== */
+::selection {
+  background: rgba(212, 168, 83, 0.3);
+  color: inherit;
+}
+
+/* ===== Text Balance Utility ===== */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
