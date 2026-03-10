@@ -1901,6 +1901,35 @@ export const weapons: Equipment[] = [
     stats: { force: 45, dommages: 18, vitalite: 70, pods: 500, puissance: 15, resistanceTerrePercent: 4 },
     dropMonsters: [{ monsterId: 'minotoror', monsterName: 'Minotoror', zone: 'Labyrinthe du Minotoror', dropRate: 0.3 }],
   },
+  // ===== ARMES SUPPLÉMENTAIRES =====
+  // --- Épées niveau moyen/haut ---
+  { id: 'epee-milicien', name: 'Épée des Miliciens', slug: 'epee-des-miliciens', level: 18, type: 'epee' as EquipmentType, category: 'weapon', stats: { force: 15, vitalite: 20, dommages: 8 }, description: 'L\'épée officielle de la milice d\'Astrub.' },
+  { id: 'epee-koalak', name: 'Épée Koalak', slug: 'epee-koalak', level: 62, type: 'epee' as EquipmentType, category: 'weapon', stats: { force: 60, intelligence: 50, vitalite: 70, dommages: 15 }, dropMonsters: [{ monsterId: 'koalak-guerrier', monsterName: 'Koalak Guerrier', zone: 'Île d\'Otomaï', dropRate: 0.8 }] },
+  { id: 'epee-brakmarienne', name: 'Épée Brâkmarienne', slug: 'epee-brakmarienne', level: 80, type: 'epee' as EquipmentType, category: 'weapon', stats: { force: 85, vitalite: 100, dommages: 18, puissance: 20 }, description: 'Forgée dans les mines de Brâkmar avec du métal corrompu.' },
+  { id: 'epee-minotoror', name: 'Épée du Minotoror', slug: 'epee-minotoror', level: 76, type: 'epee' as EquipmentType, category: 'weapon', stats: { force: 80, vitalite: 90, dommages: 17, resistanceTerrePercent: 5 }, dropMonsters: [{ monsterId: 'minotoror', monsterName: 'Minotoror', zone: 'Île du Minotoror', dropRate: 0.5 }] },
+  // --- Arcs niveau moyen/haut ---
+  { id: 'arc-kanigrou', name: 'Arc des Kanigrous', slug: 'arc-des-kanigrous', level: 55, type: 'arc' as EquipmentType, category: 'weapon', stats: { agilite: 55, vitalite: 60, dommages: 14, portee: 2 }, dropMonsters: [{ monsterId: 'kanigrula', monsterName: 'Kanigrula', zone: 'Plaines de Cania', dropRate: 0.8 }] },
+  { id: 'arc-firefoux', name: 'Arc des Firefoux', slug: 'arc-des-firefoux', level: 68, type: 'arc' as EquipmentType, category: 'weapon', stats: { agilite: 70, intelligence: 60, vitalite: 80, dommages: 15, portee: 2 }, dropMonsters: [{ monsterId: 'firefoux-ardent', monsterName: 'Firefoux Ardent', zone: 'Île de Moon', dropRate: 1.0 }] },
+  { id: 'arc-obscur', name: 'Arc Obscur', slug: 'arc-obscur', level: 90, type: 'arc' as EquipmentType, category: 'weapon', stats: { agilite: 90, vitalite: 110, dommages: 20, puissance: 25, portee: 3 } },
+  // --- Baguettes niveau moyen/haut ---
+  { id: 'baguette-chafer', name: 'Baguette du Chafer', slug: 'baguette-chafer', level: 40, type: 'baguette' as EquipmentType, category: 'weapon', stats: { intelligence: 35, agilite: 30, vitalite: 40, dommages: 11 }, dropMonsters: [{ monsterId: 'chafer-capitaine', monsterName: 'Chafer Capitaine', zone: 'Cimetière', dropRate: 1.2 }] },
+  { id: 'baguette-pandala', name: 'Baguette de Pandala', slug: 'baguette-pandala', level: 65, type: 'baguette' as EquipmentType, category: 'weapon', stats: { intelligence: 65, chance: 55, vitalite: 75, dommages: 14, sagesse: 12 } },
+  { id: 'baguette-rat-noir', name: 'Baguette du Rat Noir', slug: 'baguette-rat-noir', level: 105, type: 'baguette' as EquipmentType, category: 'weapon', stats: { intelligence: 100, vitalite: 130, dommages: 22, puissance: 30, sagesse: 25 }, dropMonsters: [{ monsterId: 'rat-noir-boss', monsterName: 'Rat Noir', zone: 'Île de Moon', dropRate: 0.1 }] },
+  // --- Bâtons niveau moyen/haut ---
+  { id: 'baton-koalak', name: 'Bâton du Koalak Mâture', slug: 'baton-koalak-mature', level: 68, type: 'baton' as EquipmentType, category: 'weapon', stats: { intelligence: 60, force: 55, vitalite: 80, dommages: 15, soins: 15 }, dropMonsters: [{ monsterId: 'koalak-mature', monsterName: 'Koalak Mâture', zone: 'Île d\'Otomaï', dropRate: 0.5 }] },
+  { id: 'baton-sylvanome', name: 'Bâton du Sylvanome', slug: 'baton-sylvanome', level: 72, type: 'baton' as EquipmentType, category: 'weapon', stats: { intelligence: 70, vitalite: 90, dommages: 14, soins: 18 }, dropMonsters: [{ monsterId: 'sylvanome-tordu', monsterName: 'Sylvanome Tordu', zone: 'Forêt des Chênes', dropRate: 0.6 }] },
+  // --- Dagues niveau moyen/haut ---
+  { id: 'dague-kanigrula', name: 'Dague Kanigrula', slug: 'dague-kanigrula', level: 62, type: 'dague' as EquipmentType, category: 'weapon', stats: { agilite: 60, vitalite: 70, dommages: 16, esquivePM: 10 }, dropMonsters: [{ monsterId: 'kanigrula', monsterName: 'Kanigrula', zone: 'Plaines de Cania', dropRate: 0.5 }] },
+  { id: 'dague-roublard', name: 'Dague du Roublard Expert', slug: 'dague-roublard-expert', level: 80, type: 'dague' as EquipmentType, category: 'weapon', stats: { agilite: 80, vitalite: 90, dommages: 17, puissance: 20 } },
+  // --- Haches niveau moyen/haut ---
+  { id: 'hache-bwork', name: 'Hache du Bwork Roi', slug: 'hache-bwork-roi', level: 92, type: 'hache' as EquipmentType, category: 'weapon', stats: { force: 95, vitalite: 120, dommages: 20, puissance: 25, resistanceTerrePercent: 5 }, dropMonsters: [{ monsterId: 'bwork-roi', monsterName: 'Bwork Roi', zone: 'Brâkmar', dropRate: 0.3 }] },
+  { id: 'hache-gelees', name: 'Hache de Gelée', slug: 'hache-de-gelee', level: 35, type: 'hache' as EquipmentType, category: 'weapon', stats: { force: 35, intelligence: 28, vitalite: 45, dommages: 11 }, dropMonsters: [{ monsterId: 'gelee-royale', monsterName: 'Gelée Royale', zone: 'Amakna', dropRate: 1.0 }] },
+  // --- Marteaux niveau moyen/haut ---
+  { id: 'marteau-bworker', name: 'Marteau du Bworker', slug: 'marteau-bworker', level: 96, type: 'marteau' as EquipmentType, category: 'weapon', stats: { force: 100, vitalite: 130, dommages: 21, puissance: 28, resistanceFeuPercent: 6 }, dropMonsters: [{ monsterId: 'bworker', monsterName: 'Bworker', zone: 'Mines de Brâkmar', dropRate: 0.2 }] },
+  { id: 'marteau-minotoror', name: 'Marteau du Minotoror', slug: 'marteau-minotoror', level: 78, type: 'marteau' as EquipmentType, category: 'weapon', stats: { force: 82, vitalite: 95, dommages: 18, resistanceTerrePercent: 6 }, dropMonsters: [{ monsterId: 'minotaure', monsterName: 'Minotaure', zone: 'Île du Minotoror', dropRate: 0.4 }] },
+  // --- Faux/Pelles supplémentaires ---
+  { id: 'faux-skeunk', name: 'Faux du Skeunk', slug: 'faux-du-skeunk', level: 78, type: 'faux' as EquipmentType, category: 'weapon', stats: { intelligence: 75, vitalite: 90, dommages: 16, puissance: 18 }, dropMonsters: [{ monsterId: 'skeunk', monsterName: 'Skeunk', zone: 'Forêt de Brouce', dropRate: 0.3 }] },
+  { id: 'pelle-enutrof', name: 'Pelle de l\'Enutrof Légendaire', slug: 'pelle-enutrof-legendaire', level: 80, type: 'pelle' as EquipmentType, category: 'weapon', stats: { chance: 80, vitalite: 95, dommages: 17, prospection: 30, pods: 600 } },
 ];
 
 // Type fix
