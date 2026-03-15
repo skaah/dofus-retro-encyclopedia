@@ -2,8 +2,7 @@ import { Quest } from '@/types';
 
 // ============================================================
 // Auto-generated from retrofus-API — DO NOT EDIT MANUALLY
-// Source: skaah/retrofus-API/data/quests-enriched.json
-// Quests: 62 | Updated: 2026-03-15
+// Source: quests-enriched.json | Quests: 62 | Updated: 2026-03-15
 // ============================================================
 
 export const quests: Quest[] = [
@@ -16,10 +15,10 @@ export const quests: Quest[] = [
     zone: 'Île d\'Otomai',
     description: 'Partez à la recherche du légendaire Dofus Émeraude en explorant les profondeurs du monde des Douze.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 500000,
@@ -30,7 +29,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Otomai', location: 'Île d\'Otomai', npc: 'Otomai' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -43,10 +42,10 @@ export const quests: Quest[] = [
     zone: 'Île de la Cawotte',
     description: 'Trouvez le précieux Dofus Cawotte, fruit d\'une magie étrange mêlée à des carottes enchantées.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 400000,
@@ -57,7 +56,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Krampos', location: 'Île de la Cawotte', npc: 'Krampos' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -70,10 +69,10 @@ export const quests: Quest[] = [
     zone: 'Labyrinthe du Minotoror',
     description: 'Le Dofus Pourpre est convoité par les plus grands aventuriers. Prouvez votre valeur pour l\'obtenir.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 1000000,
@@ -84,7 +83,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Minotoror', location: 'Labyrinthe du Minotoror', npc: 'Minotoror' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -97,10 +96,10 @@ export const quests: Quest[] = [
     zone: 'Village de la Tortue',
     description: 'Plongez dans les profondeurs océaniques pour trouver le mystérieux Dofus Turquoise.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 750000,
@@ -111,7 +110,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Sura Kîna', location: 'Village de la Tortue', npc: 'Sura Kîna' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -124,10 +123,10 @@ export const quests: Quest[] = [
     zone: 'Bonta / Brakmar',
     description: 'Le Dofus Vulbis est le plus difficile à obtenir. Seuls les plus courageux pourront le revendiquer.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 2000000,
@@ -138,7 +137,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Oto Mustam / Amayiro', location: 'Bonta / Brakmar', npc: 'Oto Mustam / Amayiro' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -151,10 +150,10 @@ export const quests: Quest[] = [
     zone: 'Territoire des Ténèbres',
     description: 'Le Dofus Abyssal renferme une puissance des ténèbres incommensurable.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 1500000,
@@ -165,7 +164,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Oracle des Ténèbres', location: 'Territoire des Ténèbres', npc: 'Oracle des Ténèbres' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -178,10 +177,10 @@ export const quests: Quest[] = [
     zone: 'Montagne des Dragons',
     description: 'La quête ultime : réunir tous les Dofus pour créer le légendaire Dofus Précieux.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 5000000,
@@ -192,7 +191,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Dragon Ancien', location: 'Montagne des Dragons', npc: 'Dragon Ancien' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -205,10 +204,10 @@ export const quests: Quest[] = [
     zone: 'Bonta',
     description: 'Apprenez le sort secret Mot Interdit, réservé aux Xélors les plus dévoués.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 150000,
@@ -219,7 +218,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Maître Xélor', location: 'Bonta', npc: 'Maître Xélor' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -232,10 +231,10 @@ export const quests: Quest[] = [
     zone: 'Srambad',
     description: 'Maîtrisez l\'art de la dissimulation suprême avec le sort Rôde.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 150000,
@@ -246,7 +245,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Maître Sram', location: 'Srambad', npc: 'Maître Sram' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -259,10 +258,10 @@ export const quests: Quest[] = [
     zone: 'Village d\'Amakna',
     description: 'Les Eniripsas peuvent apprendre ce puissant sort de soin supérieur.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 150000,
@@ -273,7 +272,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Maîtresse Eniripsa', location: 'Village d\'Amakna', npc: 'Maîtresse Eniripsa' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -286,10 +285,10 @@ export const quests: Quest[] = [
     zone: 'Village d\'Amakna',
     description: 'Les Iops peuvent canaliser leur rage pour apprendre la puissante Colère de Iop.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 150000,
@@ -300,7 +299,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Maître Iop', location: 'Village d\'Amakna', npc: 'Maître Iop' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -313,10 +312,10 @@ export const quests: Quest[] = [
     zone: 'Village d\'Amakna',
     description: 'Les Cras peuvent apprendre à tirer des flèches explosives dévastatrices.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 150000,
@@ -327,7 +326,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Maîtresse Cra', location: 'Village d\'Amakna', npc: 'Maîtresse Cra' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -340,10 +339,10 @@ export const quests: Quest[] = [
     zone: 'Astrub',
     description: 'Les Enutrofs peuvent apprendre le célèbre Lancer de Pièces.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 150000,
@@ -354,7 +353,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Maître Enutrof', location: 'Astrub', npc: 'Maître Enutrof' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -367,10 +366,10 @@ export const quests: Quest[] = [
     zone: 'Village d\'Amakna',
     description: 'Les Osamodas peuvent apprendre à se transformer en leurs créatures.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 150000,
@@ -381,7 +380,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Maître Osamodas', location: 'Village d\'Amakna', npc: 'Maître Osamodas' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -394,10 +393,10 @@ export const quests: Quest[] = [
     zone: 'Champs d\'Amakna',
     description: 'Obtenez l\'accès au Donjon des Bouftous et affrontez le Bouftou Royal.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 75000,
@@ -408,7 +407,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Éleveur de Bouftous', location: 'Champs d\'Amakna', npc: 'Éleveur de Bouftous' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -421,10 +420,10 @@ export const quests: Quest[] = [
     zone: 'Astrub',
     description: 'Obtenez l\'accès au Donjon des Tofus pour affronter le Tofu Royal.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 100000,
@@ -435,7 +434,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Astronome', location: 'Astrub', npc: 'Astronome' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -448,10 +447,10 @@ export const quests: Quest[] = [
     zone: 'Astrub',
     description: 'Obtenez l\'accès au Donjon des Scarafeuilles et ses trésors cachés.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 150000,
@@ -462,7 +461,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Entomologiste', location: 'Astrub', npc: 'Entomologiste' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -475,10 +474,10 @@ export const quests: Quest[] = [
     zone: 'Prairie d\'Amakna',
     description: 'Obtenez l\'accès au Donjon des Blops pour affronter les Blops Royaux.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 200000,
@@ -489,7 +488,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Alchimiste', location: 'Prairie d\'Amakna', npc: 'Alchimiste' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -502,10 +501,10 @@ export const quests: Quest[] = [
     zone: 'Champs d\'Amakna',
     description: 'Obtenez l\'accès au Donjon des Champs et affrontez le Bouftou Noir.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 250000,
@@ -516,7 +515,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Paysan Légendaire', location: 'Champs d\'Amakna', npc: 'Paysan Légendaire' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -529,10 +528,10 @@ export const quests: Quest[] = [
     zone: 'Cimetière',
     description: 'Obtenez l\'accès au Donjon des Squelettes et défiez les morts-vivants.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 300000,
@@ -543,7 +542,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Nécromant', location: 'Cimetière', npc: 'Nécromant' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -556,10 +555,10 @@ export const quests: Quest[] = [
     zone: 'Village des Forgerons',
     description: 'Obtenez l\'accès au Donjon des Forgerons et ses secrets de forge.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 350000,
@@ -570,7 +569,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Maître Forgeron', location: 'Village des Forgerons', npc: 'Maître Forgeron' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -583,10 +582,10 @@ export const quests: Quest[] = [
     zone: 'Forêt d\'Amakna',
     description: 'Obtenez l\'accès au Donjon du Dragon Cochon et affrontez cette créature étrange.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 400000,
@@ -597,7 +596,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Chasseur', location: 'Forêt d\'Amakna', npc: 'Chasseur' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -610,10 +609,10 @@ export const quests: Quest[] = [
     zone: 'Labyrinthe du Minotoror',
     description: 'Obtenez l\'accès au redoutable Labyrinthe du Minotoror.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 500000,
@@ -624,7 +623,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Gardien du Labyrinthe', location: 'Labyrinthe du Minotoror', npc: 'Gardien du Labyrinthe' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -637,10 +636,10 @@ export const quests: Quest[] = [
     zone: 'Île d\'Otomai',
     description: 'Obtenez l\'accès au Donjon du Kimbo sur l\'île d\'Otomai.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 600000,
@@ -651,7 +650,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Explorateur Otomaien', location: 'Île d\'Otomai', npc: 'Explorateur Otomaien' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -664,10 +663,10 @@ export const quests: Quest[] = [
     zone: 'Dimension des Rêves',
     description: 'Obtenez l\'accès au mystérieux Donjon des Rêves.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 750000,
@@ -678,7 +677,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Rêveur', location: 'Dimension des Rêves', npc: 'Rêveur' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -691,10 +690,10 @@ export const quests: Quest[] = [
     zone: 'Bonta',
     description: 'Rejoignez les rangs de l\'alignement Bonta et défendez les valeurs de la lumière.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 100000,
@@ -705,7 +704,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Amayiro', location: 'Bonta', npc: 'Amayiro' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -718,10 +717,10 @@ export const quests: Quest[] = [
     zone: 'Brakmar',
     description: 'Rejoignez les rangs de l\'alignement Brakmar et embrassez les ténèbres.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 100000,
@@ -732,7 +731,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Oto Mustam', location: 'Brakmar', npc: 'Oto Mustam' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -745,10 +744,10 @@ export const quests: Quest[] = [
     zone: 'Bonta / Brakmar',
     description: 'Montez en grade dans votre alignement pour accéder à de nouveaux privilèges.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 200000,
@@ -759,7 +758,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Chef d\'Alignement', location: 'Bonta / Brakmar', npc: 'Chef d\'Alignement' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -772,10 +771,10 @@ export const quests: Quest[] = [
     zone: 'Bonta / Brakmar',
     description: 'Poursuivez votre ascension dans les grades de votre alignement.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 350000,
@@ -786,7 +785,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Chef d\'Alignement', location: 'Bonta / Brakmar', npc: 'Chef d\'Alignement' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -799,10 +798,10 @@ export const quests: Quest[] = [
     zone: 'Bonta / Brakmar',
     description: 'Atteignez le grade ultime de votre alignement et devenez une légende.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 750000,
@@ -813,7 +812,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Chef Suprême', location: 'Bonta / Brakmar', npc: 'Chef Suprême' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -826,10 +825,10 @@ export const quests: Quest[] = [
     zone: 'Astrub',
     description: 'Apprenez le métier de Paysan pour cultiver les ressources de base.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 5000,
@@ -840,7 +839,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Maître Paysan', location: 'Astrub', npc: 'Maître Paysan' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -853,10 +852,10 @@ export const quests: Quest[] = [
     zone: 'Astrub',
     description: 'Apprenez le métier d\'Alchimiste pour créer des potions magiques.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 5000,
@@ -867,7 +866,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Maître Alchimiste', location: 'Astrub', npc: 'Maître Alchimiste' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -880,10 +879,10 @@ export const quests: Quest[] = [
     zone: 'Village des Forgerons',
     description: 'Apprenez le métier de Forgeron pour forger armes et équipements.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 5000,
@@ -894,7 +893,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Maître Forgeron', location: 'Village des Forgerons', npc: 'Maître Forgeron' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -907,10 +906,10 @@ export const quests: Quest[] = [
     zone: 'Astrub',
     description: 'Apprenez le métier de Boulanger pour créer des pains régénérants.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 5000,
@@ -921,7 +920,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Maître Boulanger', location: 'Astrub', npc: 'Maître Boulanger' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -934,10 +933,10 @@ export const quests: Quest[] = [
     zone: 'Astrub',
     description: 'Apprenez le métier de Bûcheron pour couper du bois.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 5000,
@@ -948,7 +947,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Maître Bûcheron', location: 'Astrub', npc: 'Maître Bûcheron' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -961,10 +960,10 @@ export const quests: Quest[] = [
     zone: 'Astrub',
     description: 'Apprenez le métier de Mineur pour extraire des minerais précieux.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 5000,
@@ -975,7 +974,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Maître Mineur', location: 'Astrub', npc: 'Maître Mineur' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -988,10 +987,10 @@ export const quests: Quest[] = [
     zone: 'Astrub',
     description: 'Apprenez le métier de Pêcheur pour attraper des poissons.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 5000,
@@ -1002,7 +1001,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Maître Pêcheur', location: 'Astrub', npc: 'Maître Pêcheur' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -1015,10 +1014,10 @@ export const quests: Quest[] = [
     zone: 'Astrub',
     description: 'Apprenez le métier de Chasseur pour dépecer les monstres.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 5000,
@@ -1029,7 +1028,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Maître Chasseur', location: 'Astrub', npc: 'Maître Chasseur' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -1042,10 +1041,10 @@ export const quests: Quest[] = [
     zone: 'Astrub',
     description: 'Apprenez le métier de Tailleur pour coudre des vêtements.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 5000,
@@ -1056,7 +1055,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Maître Tailleur', location: 'Astrub', npc: 'Maître Tailleur' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -1069,10 +1068,10 @@ export const quests: Quest[] = [
     zone: 'Port de Madrestam',
     description: 'Découvrez l\'île mystérieuse d\'Otomai et ses secrets.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 100000,
@@ -1083,7 +1082,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Capitaine de la Barque', location: 'Port de Madrestam', npc: 'Capitaine de la Barque' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -1096,10 +1095,10 @@ export const quests: Quest[] = [
     zone: 'Port de Madrestam',
     description: 'Explorez l\'île de la Cawotte et découvrez ses mystères.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 80000,
@@ -1110,7 +1109,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Capitaine de la Barque', location: 'Port de Madrestam', npc: 'Capitaine de la Barque' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -1123,10 +1122,10 @@ export const quests: Quest[] = [
     zone: 'Port de Madrestam',
     description: 'Partez à la découverte de l\'île glacée de Frigost.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 250000,
@@ -1137,7 +1136,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Navigateur', location: 'Port de Madrestam', npc: 'Navigateur' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -1150,10 +1149,10 @@ export const quests: Quest[] = [
     zone: 'Port de Madrestam',
     description: 'Visitez le mystérieux Village de la Tortue.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 150000,
@@ -1164,7 +1163,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Guide Maritime', location: 'Port de Madrestam', npc: 'Guide Maritime' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -1177,10 +1176,10 @@ export const quests: Quest[] = [
     zone: 'Île de la Cawotte',
     description: 'Explorez l\'archipel peuplé de Wabbits.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 120000,
@@ -1191,7 +1190,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Capitaine Wabbit', location: 'Île de la Cawotte', npc: 'Capitaine Wabbit' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -1204,10 +1203,10 @@ export const quests: Quest[] = [
     zone: 'Astrub',
     description: 'Explorez les mines sous Astrub et leurs secrets.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 50000,
@@ -1218,7 +1217,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Vieux Mineur', location: 'Astrub', npc: 'Vieux Mineur' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -1231,10 +1230,10 @@ export const quests: Quest[] = [
     zone: 'Astrub',
     description: 'Participez à l\'événement de Pâques et chassez les œufs cachés.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 50000,
@@ -1245,7 +1244,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Maître de la Chasse', location: 'Astrub', npc: 'Maître de la Chasse' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -1258,10 +1257,10 @@ export const quests: Quest[] = [
     zone: 'Village d\'Amakna',
     description: 'Célébrez Nowel et aidez le Père Nowel à distribuer les cadeaux.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 75000,
@@ -1272,7 +1271,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Père Nowel', location: 'Village d\'Amakna', npc: 'Père Nowel' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -1285,10 +1284,10 @@ export const quests: Quest[] = [
     zone: 'Foire du Trool',
     description: 'Participez à la grande foire et remportez des prix fabuleux.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 100000,
@@ -1299,7 +1298,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Maître de la Foire', location: 'Foire du Trool', npc: 'Maître de la Foire' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -1312,10 +1311,10 @@ export const quests: Quest[] = [
     zone: 'Arène de Bonta',
     description: 'Participez au grand tournoi et prouvez votre valeur.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 200000,
@@ -1326,7 +1325,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Maître d\'Arène', location: 'Arène de Bonta', npc: 'Maître d\'Arène' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -1339,10 +1338,10 @@ export const quests: Quest[] = [
     zone: 'Astrub',
     description: 'Participez à une chasse au trésor organisée par les Enutrofs.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 100000,
@@ -1353,7 +1352,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Organisateur Enutrof', location: 'Astrub', npc: 'Organisateur Enutrof' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -1366,10 +1365,10 @@ export const quests: Quest[] = [
     zone: 'Champs d\'Amakna',
     description: 'Défendez les champs contre l\'invasion massive de Bouftous.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 150000,
@@ -1380,7 +1379,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Garde Champêtre', location: 'Champs d\'Amakna', npc: 'Garde Champêtre' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -1393,10 +1392,10 @@ export const quests: Quest[] = [
     zone: 'Frigost',
     description: 'Forgez la légendaire Épée de Glace.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 300000,
@@ -1407,7 +1406,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Forgeron Légendaire', location: 'Frigost', npc: 'Forgeron Légendaire' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -1420,10 +1419,10 @@ export const quests: Quest[] = [
     zone: 'Bonta',
     description: 'Rassemblez les quatre anneaux pour créer l\'Anneau Ultime.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 500000,
@@ -1434,7 +1433,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Mage Élémentaire', location: 'Bonta', npc: 'Mage Élémentaire' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -1447,10 +1446,10 @@ export const quests: Quest[] = [
     zone: 'Temple du Temps',
     description: 'Créez le Bâton des Âges, artefact des temps anciens.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 750000,
@@ -1461,7 +1460,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Xélor Ancien', location: 'Temple du Temps', npc: 'Xélor Ancien' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -1474,10 +1473,10 @@ export const quests: Quest[] = [
     zone: 'Cimetière',
     description: 'Rassemblez tous les éléments de la Panoplie du Chafer.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 200000,
@@ -1488,7 +1487,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Collectionneur', location: 'Cimetière', npc: 'Collectionneur' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -1501,10 +1500,10 @@ export const quests: Quest[] = [
     zone: 'Village d\'Amakna',
     description: 'Les Osamodas peuvent apprendre à invoquer une Arakne puissante.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 150000,
@@ -1515,7 +1514,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Maître Osamodas', location: 'Village d\'Amakna', npc: 'Maître Osamodas' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -1528,10 +1527,10 @@ export const quests: Quest[] = [
     zone: 'Village d\'Amakna',
     description: 'Les Eniripsas peuvent apprendre le sort de protection Mot d\'Épine.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 150000,
@@ -1542,7 +1541,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Maîtresse Eniripsa', location: 'Village d\'Amakna', npc: 'Maîtresse Eniripsa' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -1555,10 +1554,10 @@ export const quests: Quest[] = [
     zone: 'Srambad',
     description: 'Les Srams peuvent apprendre le sort empoisonné Aiguille.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 150000,
@@ -1569,7 +1568,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Maître Sram', location: 'Srambad', npc: 'Maître Sram' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -1582,10 +1581,10 @@ export const quests: Quest[] = [
     zone: 'Village d\'Amakna',
     description: 'Les Cras peuvent apprendre le sort de base amélioré Flèche Magique.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 150000,
@@ -1596,7 +1595,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Maîtresse Cra', location: 'Village d\'Amakna', npc: 'Maîtresse Cra' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -1609,10 +1608,10 @@ export const quests: Quest[] = [
     zone: 'Srambad',
     description: 'Les Srams peuvent apprendre le sort de piège Sabotage.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 150000,
@@ -1623,7 +1622,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Maître Sram', location: 'Srambad', npc: 'Maître Sram' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -1636,10 +1635,10 @@ export const quests: Quest[] = [
     zone: 'Bonta',
     description: 'Les Xélors peuvent apprendre le sort de déplacement Téléportation.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 150000,
@@ -1650,7 +1649,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Maître Xélor', location: 'Bonta', npc: 'Maître Xélor' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
@@ -1663,10 +1662,10 @@ export const quests: Quest[] = [
     zone: 'Astrub',
     description: 'Les Enutrofs peuvent apprendre le sort de combat Coup de Baguette.',
     objectives: [
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
-      { description: 'Objectif', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
+      { description: 'Étape', type: 'talk' },
     ],
     rewards: {
       xp: 150000,
@@ -1677,7 +1676,7 @@ export const quests: Quest[] = [
       steps: [
         { order: 1, description: 'Parler à Maître Enutrof', location: 'Astrub', npc: 'Maître Enutrof' },
       ],
-      tips: ['Consultez un guide pour les étapes détaillées'],
+      tips: ['Voir le guide complet sur Retrofus'],
       estimatedTime: '30 minutes',
     },
   },
